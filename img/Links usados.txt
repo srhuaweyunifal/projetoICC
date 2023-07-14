@@ -1,0 +1,8 @@
+Links usados no projeto:
+Sistema de controle de versões Git - https://www.atlassian.com/br/git
+Repositorio Github - https://blog.betrybe.com/git/#8
+ui design do site - https://www.canva.com/pt_br/
+alura- https://www.alura.com.br/artigos/o-que-e-git-github?gclid=Cj0KCQjwnrmlBhDHARIsADJ5b_l20NFfqnzPFsGtZvNq8C6sH_IKJqIwbBzsaZwPrne_F3oAYvEHJ7YaAgXiEALw_wcB
+github docs - https://docs.github.com/pt/repositories/creating-and-managing-repositories/about-repositories
+github docs - https://docs.github.com/pt/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/adding-an-existing-project-to-github-using-github-desktop
+codaqui - https://www.codaqui.dev/trilhas/github-starter/?gclid=Cj0KCQjwnrmlBhDHARIsADJ5b_kym7frAkjTowmflk3pTSvwaqq-5RrB4D8Oned5cDyZUkUv8S6XfSsaApnjEALw_wcB#
