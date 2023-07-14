@@ -22,7 +22,7 @@ background: #4f72ff;color: #fff;
 /* seção de entrada */
 
 .intro {
-display: flex;flex-direction: column;align-items: center;gap: 50px;width: 100%;
+display: flex;flex-direction: column;align-items: center;gap: 50px;width: 100%;padding-bottom: 50px;
 }
 .intro-container {
 display: flex;justify-content: space-around;width: 100%;
@@ -45,3 +45,41 @@ font-family: sans-serif;font-size: 20px;
 .intro-text p mark {
  background: #e4bbe4;
 }
+
+/*seção do git*/
+
+#git  {
+display: flex;justify-content: space-around;align-items: center;padding: 50px 10px;background: #222;gap: 20px;
+}
+.git-img img{
+width: 500px;
+}
+.git-text h1 {
+font-family: Bebas Neue;font-size: 175px;text-align: center;color: #f05033;
+}
+.git-text h3 {
+font-family: Anonymous Pro;font-size: 30px;text-align: center;margin: 10px 0;color: #fff;
+}
+.git-text p{
+font-family: sans-serif;font-size: 20px;color: #fff;
+}
+.git-text p mark {
+ background: #e4bbe4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

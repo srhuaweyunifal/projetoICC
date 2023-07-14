@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<!--    Moacyr Clemente Netto 2023.1.08.016
+	Marcelo Bernardino da Silva Junior 2021.1.08.050 -->
+	
+	
+<html lang="pt-BR">
+
+<head>
+<title>Git e Github</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta charset="UTF-8"/>
+<link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
+<link rel="stylesheet" href="style.css"/>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+<script src="script.js" defer></script>
+</head>
+
+<body>
+<nav>
+<ul class="menu">
+<li><a href="#">Home</a></li>
+<li><a href="#git">Git/Github</a></li>
+<li><a href="audio.html">Apresentação em audio</a></li>
+<li><a href="video.html">Apresentação em vídeo</a></li>
+</ul>
+</nav>
+
+<section class="intro">
+  
+<div class="intro-container"> 
+   <div class="intro-img">
+    <img src="img/github-logo.png" alt="github logo"/>
+   </div>
+
+   <div class="intro-titleSub">
+    <h1>Github e Git</h1>
+    <p>Você já ouviu falar do git?e do github?</p>
+   </div>
+
+  <div class="intro-img">
+   <img src="img/repositório.png" alt="repositório icon/">
+  </div>
+</div>
+
+<div class="intro-text">
+<p>O Git é um <mark>Sistema de Controle de Versão</mark> (VCS) distribuído, o que significa que é uma ferramenta útil para rastrear facilmente alterações em seu código, colaborar e compartilhar. Com o Git, você pode rastrear as alterações feitas em seu projeto para que sempre tenha um registro do que trabalhou e possa reverter facilmente para uma versão mais antiga, se necessário. Também facilita o trabalho com outras pessoas - grupos de pessoas podem trabalhar juntos no mesmo projeto e mesclar suas alterações em uma fonte final!<br>
+O GitHub é uma maneira de usar o mesmo poder do Git online com uma interface fácil de usar. É usado em todo o mundo do software e além para colaborar e manter o histórico de projetos.<br>
+<mark>O GitHub é o lar de algumas das tecnologias mais avançadas do mundo.</mark> Esteja você visualizando dados ou criando um novo jogo, há toda uma comunidade e um conjunto de ferramentas no GitHub que podem levar você ao próximo passo. Este curso começa com o básico do GitHub, mas vamos nos aprofundar no resto mais tarde.</p>
+</div>
+</section>
+
+
+<section id="git">
+<div class="git-img">
+ <img src="img/git icon.png" alt="git logo"/>
+</div>
+
+<div class="git-text">
+<h1>O que é o Git?</h1>
+<h3>O sistema de controle de versões git</h3>
+<p>Apenas poder acessar o código dos outros colaboradores não é suficiente. Precisamos manter o histórico dos nossos arquivos, ou mais: das nossas modificações, pois muitas vezes mudamos arquivos em grupo, num movimento único (um commit). Dessa forma, podemos voltar atrás e <mark>recuperar o estado do sistema</mark> como ele era ontem, ou no ano passado, e comparar as mudanças, para encontrar bug e estudar otimizações.<br>
+Todos os nossos arquivos, assim como seus históricos, ficam em um repositório e existiam vários sistemas que gerenciavam repositórios assim, como CVS e SVN. O Git é uma alternativa com um funcionamento mais interessante ainda: ele é distribuído e todo mundo tem uma cópia inteira do repositório, não apenas o "servidor principal".</p>
+
+<h3>Então, o que é a ferramenta Git exatamente?</h3>
+<p><mark>O Git é um sistema de controle de versão distribuído e amplamente adotado.</mark> O Git nasceu e foi tomando espaço dos outros sistemas de controle. Seu criador principal é o mesmo que o do Linux: Linus Torvalds, e ganhou o coração das pessoas que trabalham com open source.Inicialmente, por ser desenvolvido com o Linux em mente como plataforma, o Git <mark>foi desenvolvido em Shell Script</mark> que, apesar de funcionar como o esperado, amarrava a ferramenta a sistemas Linux, que tinham os utilitários necessários para interpretar o Shell Script. Com a popularidade da ferramenta, outros sistemas buscaram dar suporte a ela, através da emulação de um sistema Linux, que ficava responsável por executar o Git.<br>
+No entanto, o uso da emulação de um sistema Linux tinha impacto na performance da ferramenta nos sistemas operacionais que usavam essa estratégia. Com isso em mente, muitos comandos do Git, inicialmente escritos em Shell Script, foram <i>reescritos na linguagem C</i>, que resultou em ganho de performance em plataformas que não usam o Shell Script como linguagem de linha de comando oficial, como é o caso do Windows.</p>
+
+<h3>Como usar o Git?</h3>
+
+<p>Você vai usar o Git para guardar o versionamento de todo seu sistema, de maneira segura e distribuída. Deve sempre fazer pequenos commits e 'pushar' suas modificações em grupos que fazem sentido. Do outro lado, deve fazer os 'pulls' para sincronizar com as modificações de todo time. O Git é uma ferramenta, você vai precisar de um servidor principal (mesmo ele sendo distribuído) para facilitar seu trabalho. É aí que entra o Github, como sendo uma das opções já prontas.</p>
+</div>
+</section>
+
+
+<h1>E o Github?Você sabe o que é?</h1>
+<h3>O repositório Github</h3>
+<p>O Github tem sim muita relação com o Git. <mark>GitHub é uma plataforma para gerenciar seu código e criar um ambiente de colaboração entre devs, utilizando o Git como sistema de controle.</mark> Ele vai facilitar o uso do Git, escondendo alguns detalhes mais complicados de setup. É lá que você provavelmente vai ter seu repositório e usar no dia a dia.<br>
+O sistema web que ele possui permite que você altere arquivos lá mesmo, apesar de não ser muito aconselhado, pois você não terá um editor, um ambiente de desenvolvimento e de testes. Para se comunicar com o github e mexer nos arquivos do seu repositório, você pode usar a linha de comando, usando o <b>comando</b> do git e suas diretivas de commit</p> <small>pull e push.</small>
+
+<h3>Para que serve o repositório do GitHub?</h3>
+<p>Você pode usar repositórios para gerenciar seu trabalho e colaborar com outras pessoas. Você pode usar problemas para coletar feedback do usuário, relatar erros de software e organizar tarefas que você gostaria de realizar.</p>
+
+<h3>Como usar um repositório GitHub?</h3>
+<p>Adicione o repositório ao GitHub Desktop. Na barra do repositório, clique em Publicar repositório. Na janela "Publicar Repositório", no campo "Nome", digite o nome desejado do repositório ou use o nome do repositório local padrão. Opcionalmente, adicione uma descrição para o repositório.</p>
+
+<br>
+
+<h2>Tabela de Comandos Git</h2>
+<table>
+  <tr>
+    <th>Comando Git</th>
+    <th>Descrição e Explicação do Comando</th>
+    <th>Uso do Comando</th>
+  </tr>
+  <tr>
+    <td><b>Init</b></td>
+    <td><p>cria um novo subdiretório chamado .git que contem todos os arquivos necessários de seu repositório — um esqueleto de repositório Git. Neste ponto, nada em seu projeto é monitorado.</p></td>
+    <td><ol>
+    <li><p>$ cd /path/to/my/codebase</p></li>
+	<li><p>$ git init</p></li>     
+	<li><p>$ git add .</p></li>     
+	<li><p>$ git commit</p></li>
+	</ol></td>
+    
+  </tr>
+  <tr>
+    <td><b>Clone</b></td>
+    <td><p>Você clona um repositório com git clone [url],é um utilitário de linha de comando do Git usado para segmentar um repositório existente e criar um clone ou cópia do repositório de destino.</p></td>
+    <td><ol>
+    <li><p>$ git clone --bare -l /home/proj/.git /pub/scm/proj.git</p></li>
+    </ol></td>
+  </tr>
+  <tr>
+    <td><b>Branch</b></td>
+    <td><p>Um branch no Git é simplesmente um leve ponteiro móvel para um dos commits. O nome do branch padrão no Git é master. Como você inicialmente fez commits, você tem um branch principal (master branch) que aponta para o último commit que você fez. Cada vez que você faz um commit ele avança automaticamente.
+O que acontece se você criar um novo branch? Bem, isso cria um novo ponteiro para que você possa se mover.</p></td>
+    <td><ol>
+    <li><p>$ git branch testing</p></li>
+    </ol></td>
+  </tr>
+  <tr>
+    <td><b>Checkout</b></td>
+    <td><p>Com o git checkout você pode mudar de branch, caso a branch ainda não exista você poderá passar o parâmetro -b para criar.</p></td>
+    <td><ol>
+    <li><p>$ git checkout testing</p></li>
+    </ol></td>
+  </tr>
+  <tr>
+    <td><b>Status</b></td>
+    <td><p>O comando git status nos dá todas as informações necessárias sobre a branch atual.</p></td>
+    <td><ol>
+    <li><p>$ git status</p></li>
+    </ol></td>
+  </tr>
+  <tr>
+    <td><b>Diff</b></td>
+    <td><p>O git diff mostra as linhas exatas que foram adicionadas e removidas.</p></td>
+    <td><ol>
+    <li><p>$ git diff</p></li>
+    </ol></td>
+  </tr>
+   <tr>
+    <td><b>Add</b></td>
+    <td><p>Para passar a monitorar um novo arquivo, use o comando git add.</p></td>
+    <td><ol>
+    <li><p>$ git add README</p></li>
+    </ol></td>
+  </tr>
+  <tr>
+    <td><b>Commit</b></td>
+    <td><p>Armazena o conteúdo atual do índice em um novo commit, juntamente com uma mensagem de registro do usuário que descreve as mudanças.</p></td>
+    <td><ol>
+    <li><p>$ git commit -m "Mensagem"</p></li>
+    </ol></td>
+  </tr>
+  <tr>
+    <td><b>Push</b></td>
+    <td><p>O git push é o comando em que você transfere commits a partir do seu repositório local para um repositório remoto.</p></td>
+    <td><ol>
+    <li><p>$ git push origin develop</p></li>
+    </ol></td>
+  </tr>
+  <tr>
+    <td><b>Pull</b></td>
+    <td><p>Incorpora as alterações de um repositório remoto no branch atual. Em seu modo padrão, git pull é uma abreviação para git fetch seguido de git merge FETCH_HEAD.</p></td>
+    <td><ol>
+    <li><p>$ git pull origin develop</p></li>
+    </ol></td>
+  </tr>
+  <tr>
+    <td><b>Revert</b></td>
+    <td><p>Comando que possui efeito parecido com o reset, reverte alterações, porém este as reverte ao adicionar um novo commit, cujas alterações “desfazem” o(s) commit(s) revertido(s).</p></td>
+    <td><ol>
+    <li><p>$ git revert [referência]</p></li>
+    </ol></td>
+  </tr>
+  <tr>
+    <td><b>Merge</b></td>
+    <td><p> O comando git merge permite que você pegue as linhas de desenvolvimento independentes criadas pelo git branch e as integre em uma ramificação única.</p></td>
+    <td><ol>
+    <li><p>$ git checkout master</p></li>
+	<li><p>$ git merge iss53</p></li>
+    </ol></td>
+  </tr>
+  <tr>
+    <td><b>Stash</b></td>
+    <td><p>git stash arquiva (ou faz o stash) de alterações que você fez na cópia de trabalho durante um determinado período, para que você possa trabalhar em outra coisa, depois voltar e fazer a reaplicação mais tarde.</p></td>
+    <td><ol>
+    <li><p>$ git stash</p></li>
+    </ol></td>
+  </tr>
+  <tr>
+    <td><b>Rm</b></td>
+    <td><p>Para remover um arquivo do Git, você tem que removê-lo dos arquivos que estão sendo monitorados (mais precisamente, removê-lo da sua área de seleção) e então fazer o commit. O comando git rm faz isso e também remove o arquivo do seu diretório para você não ver ele como arquivo não monitorado (untracked file) na próxima vez.</p></td>
+    <td><ol>
+    <li><p>$ git rm -f [arquivo]</p></li>
+    </ol></td>
+  </tr>
+   <tr>
+    <td><b>Config</b></td>
+    <td><p>Entre muitos comandos do Git temos um dos mais famosos, que é o git config. Ele tem a finalidade principal de definir valores de configuração para o Git em nível global ou local. Quando o comando é executado, você modifica o arquivo de texto de configurações que está localizado no seu pc.</p></td>
+    <td><ol>
+    <li><p>$ git config --global user.name "John Doe"</p></li>
+	<li><p>$ git config --global user.email johndoe@example.com</p></li>
+    </ol></td>
+  </tr>
+   <tr>
+    <td><b>Reset</b></td>
+    <td><p>O git reset é o comando que usamos quando queremos mover o repositório de volta para um anterior commit, descartando quaisquer alterações feitas depois disso commit.</p></td>
+    <td><ol>
+    <li><p>$ git reset --hard HEAD~1</p></li>
+    </ol></td>
+  </tr>
+  <tr>
+    <td><b>Remote</b></td>
+    <td><p>O git remote O comando permite criar, visualizar e excluir conexões com outros repositórios. As conexões remotas são mais parecidas com marcadores do que com links diretos para outros repositórios.</p></td>
+    <td><ol>
+    <li><p>$ git remote</p></li>
+    </ol></td>
+  </tr>
+  <tr>
+    <td><b>Fetch</b></td>
+    <td><p>Esse comando vai até o projeto remoto e pega todos os dados que você ainda não tem. Depois de fazer isso, você deve ter referências para todos os branches desse remoto, onde você pode fazer o merge ou inspecionar a qualquer momento.</p></td>
+    <td><ol>
+    <li><p>$ git fetch origin</p></li>
+    </ol></td>
+  </tr>
+  <tr>
+    <td><b>Show</b></td>
+    <td><p>O git-show é um comando usado para visualizar detalhes expandidos em objetos Git, como blobs, trees, tags e commits. git-show tem comportamento específico por tipo de objeto.</p></td>
+    <td><ol>
+    <li><p>$ git show --pretty="" --name-only bd61ad98</p></li>
+    <li><p>$ git show REVISION:path/to/file</p></li>
+    </ol></td>
+  </tr>
+  <tr>
+    <td><b>Help</b></td>
+    <td><p>Se você estiver tendo problemas para lembrar comandos ou opções para comandos, você pode usar o git help.</p></td>
+    <td><ol>
+    <li><p>$ git help --all</p></li>
+    <li><p>$ git comando -help</p></li>
+    </ol></td>
+  </tr>
+  <tr>
+  <td><b>Rebase</b></td>
+    <td><p> git rebase [nomeDaBranch]: Irá atualizar a minha branch atual com novos commits da branch especificada, a partir do ponto em comum no histórico das duas. Útil para atualizar a branch e evitar commits de merge desnecessários.
+Já o git rebase -i [referência]^: Irá abrir um editor de texto listando commits a partir da referência especificada até o HEAD(último commit). Esse comando irá permitir diversas alterações como, editar commits e juntar dois ou mais commits em um só.</p></td>
+    <td><ol>
+    <li><p>$ git rebase [nomeDaBranch]</p></li>
+    <li><p>$ git rebase -i [referência]^</p></li>
+    </ol></td>
+  </tr>
+   <tr>
+  <td><b>Blame</b></td>
+    <td><p>O comando git blame é um utilitário versátil de resolução de problemas que tem opções de uso extensas. A função geral do git blame é a exibição de metadados do autor anexados a linhas de commit específicas em um arquivo. Ele é usado para examinar os pontos específicos do histórico de um arquivo e obter contexto sobre quem foi o último autor que modificou a linha. É usado para explorar o histórico de código específico e responder dúvidas sobre o que, como e por que o código foi adicionado ao repositório.</p></td>
+    <td><ol>
+    <li><p>$ git blame README.MD</p></li>
+    <li><p>$ git blame -C README.md</p></li>
+    </ol></td>
+  </tr>
+  <tr>
+  <td><b>Tag</b></td>
+    <td><p>O comando git tag cria tags que são referencias que apontam para pontos específicos na história do Git. A marcação é geralmente usada para capturar um ponto no histórico usado para uma versão marcada ( i.e. v1.0.1 ). Uma tag é como uma ramificação que não muda. Diferentemente das ramificações, as tags, após serem criadas, não têm mais histórico de confirmações.</p></td>
+    <td><ol>
+    <li><p>$ git tag</p></li>
+    <li><p>$ git tag -a v1.4 -m 'my version 1.4'</p></li>
+    </ol></td>
+  </tr>
+</table>
+
+
+
+</body>
+
+</html>
